@@ -4,6 +4,7 @@
 	Telegram:		https://t.me/hesoyam_666
 --------------------------------------------------------------*/
 @import 'variables'; // Variables
+@import 'mixins'; // Mixins
 
 html { overflow-x: hidden; box-sizing: border-box; }
 
@@ -522,7 +523,6 @@ a, a:focus, a:hover, a:active {
 			color: #666;
 		}
 	}
-	//The Magic
 	[id^="tab"]:checked + .tabs__label { 
 		color: #000;
 		background-color: transparent;

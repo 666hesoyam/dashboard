@@ -1,0 +1,11 @@
+// --------------------------------------------------
+// button::hover
+// --------------------------------------------------
+
+
+// eg: @include btn-hover;
+@mixin btn-hover {
+    background: #D8EE75;
+    transition: linear 0.3s all;
+    color: #3C3C3C;
+}
